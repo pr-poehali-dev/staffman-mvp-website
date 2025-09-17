@@ -11,7 +11,7 @@ const Index = () => {
       <header className="bg-white border-b sticky top-0 z-50">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <Icon name="Briefcase" className="h-8 w-8 text-yellow-600" />
+            <Icon name="Briefcase" className="h-8 w-8 text-blue-600" />
             <span className="text-2xl font-bold text-gray-900">STAFFMAN</span>
           </div>
           <nav className="hidden md:flex space-x-8">
@@ -25,16 +25,16 @@ const Index = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-yellow-400 via-yellow-500 to-orange-500 text-black overflow-hidden">
-        <div className="absolute inset-0 bg-black/5"></div>
+      <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white overflow-hidden">
+        <div className="absolute inset-0 bg-black/10"></div>
         <div className="container mx-auto px-4 py-20 relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <div className="space-y-4">
-                <Badge className="bg-black/20 text-black border-black/30">🚀 Новое поколение HR</Badge>
+                <Badge className="bg-white/20 text-white border-white/30">🚀 Новое поколение HR</Badge>
                 <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
                   Найди персонал
-                  <span className="block text-orange-700">в один клик</span>
+                  <span className="block text-blue-200">в один клик</span>
                 </h1>
                 <p className="text-xl text-blue-100 max-w-lg">
                   Революционное приложение для поиска линейного персонала. Как Яндекс.Го, только для найма сотрудников.
